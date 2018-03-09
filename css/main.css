@@ -4394,8 +4394,8 @@ body.boxed {
 /* borders, colors and backgrouns */
 .response,
 .highlight {
-	color: #d67a7e;
-	border-color: #d67a7e;
+	color: #ff9ec0
+	border-color: #ff9ec0
 }
 
 .highlight2 {
@@ -6644,7 +6644,7 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .ls .highlight {
-	color: #d67a7e;
+	color:#ff9ec0;
 }
 
 .ls .highlight2 {
@@ -7081,7 +7081,7 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .ds .highlight {
-	color: #d67a7e;
+	color: #ff9ec0;
 }
 
 .ds .highlight2 {
@@ -12749,4 +12749,8 @@ a.theme-color-icon {
 
 .demo-icon a[class*="soc-"]:before {
 	font-size: 24px;
+}
+
+#about p{
+  text-align:justify;
 }
