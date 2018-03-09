@@ -1920,8 +1920,8 @@ input[type="submit"] {
 .btn-accent,
 .wc-proceed-to-checkout .checkout-button,
 .form-submit [type="submit"] {
-	background-color: #d67a7e;
-	border-color: #d67a7e;
+	background-color: #ff9ec0;
+	border-color: #ff9ec0;
 }
 
 .theme_buttons.color2 a,
@@ -5878,8 +5878,8 @@ a.logo.vertical_logo img {
 }
 
 .intro_section + .page_header_wrapper .affix.header_white a.logo img {
-	-webkit-filter: invert(100%);
-	filter: invert(100%);
+	/*-webkit-filter: invert(100%);
+	filter: invert(100%);*/
 }
 
 .intro_section + .page_header_wrapper .with_bottom_border_container .container:after {
@@ -7021,8 +7021,8 @@ body.active-side-header.slide-right .page_header_side {
 
 .ds .theme_buttons.color1 a,
 .ds .theme_button.color1 {
-	background-color: #d67a7e;
-	border-color: #d67a7e;
+	background-color: #ff9ec0;
+	border-color: #ff9ec0;
 	color: #ffffff;
 }
 
@@ -7583,7 +7583,7 @@ body.active-side-header.slide-right .page_header_side {
 .cs .theme_button.color1 {
 	background-color: #ffffff;
 	border-color: #ffffff;
-	color: #d67a7e;
+	color: #ff9ec0;
 }
 
 .cs .theme_buttons a:hover, .cs .theme_buttons a:focus,
@@ -8106,7 +8106,7 @@ section .intro_section .slide_description_wrapper {
 	height: 100%;
 	font-size: 0;
 	z-index: 5;
-	padding: 120px 0 40px;
+	padding: 0px 0 40px;
 }
 
 @media (min-width: 600px) {
@@ -8185,7 +8185,7 @@ section .intro_section .slide_description_wrapper {
 
 @media (min-width: 1200px) {
 	.intro_section h2 {
-		font-size: 90px;
+		font-size: 70px;
 	}
 
 	.intro_section.page_mainslider .flex-control-nav {

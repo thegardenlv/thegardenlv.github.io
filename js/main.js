@@ -697,7 +697,7 @@ function windowLoadInit() {
 				direction: "vertical",
 				pauseOnHover: true, 
 				useCSS: true,
-				controlNav: dots,   
+				controlNav: false,   
 				directionNav: nav,
 				prevText: "",
 				nextText: "",
@@ -854,7 +854,7 @@ function windowLoadInit() {
 		//for boxed layout - show or hide main menu elements if width has been changed on affix
 		jQuery($header).on('affixed-top.bs.affix affixed.bs.affix affixed-bottom.bs.affix', function ( e ) {
 			if( $header.hasClass('affix-top') ) {
-				$headerWrapper.removeClass('affix-wrapper affix-bottom-wrapper').addClass('affix-top-wrapper');
+				//$headerWrapper.removeClass('affix-wrapper affix-bottom-wrapper').addClass('affix-top-wrapper');
 			} else if ( $header.hasClass('affix') ) {
 				$headerWrapper.removeClass('affix-top-wrapper affix-bottom-wrapper').addClass('affix-wrapper');
 			} else if ( $header.hasClass('affix-bottom') ) {
